@@ -84,6 +84,27 @@ button a{
     border:4px solid #3882F6;
     border-radius: 15px;
 }
+.first-card{
+    background: url("./imgs/1.jpg") 0 0 no-repeat;
+    background-size: cover;
+}
+.second-card{
+    background: url("./imgs/2.jpg") 0 0 no-repeat;
+    background-size: cover;
+}
+.third-card{
+    background: url("./imgs/3.jpg") 0 0 no-repeat;
+    background-size: cover;
+}
+.fourth-card{
+    background: url("./imgs/4.jpg") 0 0 no-repeat;
+    background-size: cover;
+}
+
+/* .image-card img{
+    outline: 4px solid #3882F6;
+    border-radius: 15px;
+} */
 .card{
     width: 185px;
     text-align: center;
@@ -154,9 +175,6 @@ button a{
 }
 
 /* FOOTER */
-footer{
-
-}
 footer div{
     display: flex;
     justify-content: center;
