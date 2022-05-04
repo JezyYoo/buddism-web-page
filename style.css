@@ -99,3 +99,31 @@ button a{
     align-content: center;
     padding-bottom: 70px;
 }
+
+
+/*MID_BOT_SECTION */
+
+.mid-bottom-section{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:110px 0px;
+}
+
+.main-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+.second-text{
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    justify-content: end;
+}
+.mid-bottom-section div{
+    width: 800px;
+    height: auto;
+}
