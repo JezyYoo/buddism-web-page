@@ -1,0 +1,70 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* UPPER SECTION HEADER*/
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    font-weight: bold;
+    padding: 20px 400px 0px 400px;
+
+}
+.header ul{
+    list-style: none;
+    margin: 0px;
+    padding:0px;
+    display:flex;
+    gap: 15px;
+}
+.header ul li a{
+    color:#E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+}
+#logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+/*UPPER SECTION TEXT IMAGE*/
+.introduction{
+    display:flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding:150px 400px;
+}
+.text-section{
+    width:450px;
+}
+.text-section h1{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+    margin:0px;
+}
+.text-section p{
+    color:#E5E7EB;
+    font-size: 18px;
+}
+.text-section button{
+    background-color: #3882F6;
+    padding:8px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0px;
+    border-radius:8px;
+}
+button a{
+    text-decoration: none;
+    color:white;
+}
+.image img{
+    width:500px;
+    height: auto;
+}
